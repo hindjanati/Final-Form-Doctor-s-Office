@@ -41,7 +41,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             // 
             this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(82)))), ((int)(((byte)(163)))));
             this.panel4.Location = new System.Drawing.Point(213, 158);
-            this.panel4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(247, 2);
             this.panel4.TabIndex = 109;
@@ -50,7 +50,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             // 
             this.tb_prix.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.tb_prix.Location = new System.Drawing.Point(213, 126);
-            this.tb_prix.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_prix.Margin = new System.Windows.Forms.Padding(4);
             this.tb_prix.Multiline = true;
             this.tb_prix.Name = "tb_prix";
             this.tb_prix.Size = new System.Drawing.Size(247, 35);
@@ -67,7 +67,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.dtp_visite.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
             this.dtp_visite.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dtp_visite.Location = new System.Drawing.Point(513, 126);
-            this.dtp_visite.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dtp_visite.Margin = new System.Windows.Forms.Padding(4);
             this.dtp_visite.Name = "dtp_visite";
             this.dtp_visite.Size = new System.Drawing.Size(383, 30);
             this.dtp_visite.TabIndex = 107;
@@ -97,8 +97,8 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.btn_ajouter.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ajouter.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ajouter.ForeColor = System.Drawing.Color.White;
-            this.btn_ajouter.Location = new System.Drawing.Point(213, 187);
-            this.btn_ajouter.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_ajouter.Location = new System.Drawing.Point(258, 193);
+            this.btn_ajouter.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ajouter.Name = "btn_ajouter";
             this.btn_ajouter.Size = new System.Drawing.Size(273, 49);
             this.btn_ajouter.TabIndex = 105;

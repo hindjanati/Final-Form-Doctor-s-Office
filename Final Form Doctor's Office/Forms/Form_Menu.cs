@@ -282,7 +282,7 @@ namespace Final_Form_Doctor_s_Office
             btn_medicament.BackColor = Color.FromArgb(227, 231, 211);
             btn_medicament.BorderColor = Color.FromArgb(25, 24, 32);
             btn_medicament.ForeColor = Color.FromArgb(25, 24, 32);
-            btn_medicament.Image = Properties.Resources.calendar_dark;
+            btn_medicament.Image = Properties.Resources.doctor_dark;
             uC_Medicament1.BringToFront();
         }
         private void cButton1_Click(object sender, EventArgs e)

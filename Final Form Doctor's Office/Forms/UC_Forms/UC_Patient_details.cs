@@ -72,6 +72,17 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
                     MessageBox.Show("Félicitation patient est modifié avec succès", "Opération effectuée avec succés", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
             }
+            bt_enregistrer_mofication.Visible = false;
+            tb_adresse.Enabled = false;
+            tb_CIN.Enabled = false;
+            tb_nom.Enabled = false;
+            tb_prenom.Enabled = false;
+            tb_telephone.Enabled = false;
+            dtp_naissance.Enabled = false;
+            cb_ville.Enabled = false;
+            tb_nomResponsable.Enabled = false;
+            tb_prenomResponsable.Enabled = false;
+            label7.Visible = true;
         }
         private void tb_nom_KeyPress(object sender, KeyPressEventArgs e) // alphabetique seulement
         {

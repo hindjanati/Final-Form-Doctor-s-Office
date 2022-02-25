@@ -30,9 +30,9 @@ namespace Final_Form_Doctor_s_Office.Forms
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Ajouter_Ordonnance));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
             this.gp_ordonnance = new System.Windows.Forms.GroupBox();
             this.btn_info_p = new Gestion_Commerciale.Classes.CButton();
             this.btn_refresh_p = new Gestion_Commerciale.Classes.CButton();
@@ -83,7 +83,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.gp_ordonnance.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gp_ordonnance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(32)))));
             this.gp_ordonnance.Location = new System.Drawing.Point(16, 49);
-            this.gp_ordonnance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.gp_ordonnance.Margin = new System.Windows.Forms.Padding(4);
             this.gp_ordonnance.Name = "gp_ordonnance";
             this.gp_ordonnance.Padding = new System.Windows.Forms.Padding(4, 4, 4, 12);
             this.gp_ordonnance.Size = new System.Drawing.Size(1029, 542);
@@ -106,7 +106,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.btn_info_p.ForeColor = System.Drawing.Color.White;
             this.btn_info_p.Image = ((System.Drawing.Image)(resources.GetObject("btn_info_p.Image")));
             this.btn_info_p.Location = new System.Drawing.Point(985, 0);
-            this.btn_info_p.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_info_p.Margin = new System.Windows.Forms.Padding(4);
             this.btn_info_p.Name = "btn_info_p";
             this.btn_info_p.Size = new System.Drawing.Size(44, 32);
             this.btn_info_p.TabIndex = 106;
@@ -129,7 +129,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.btn_refresh_p.ForeColor = System.Drawing.Color.White;
             this.btn_refresh_p.Image = ((System.Drawing.Image)(resources.GetObject("btn_refresh_p.Image")));
             this.btn_refresh_p.Location = new System.Drawing.Point(933, 0);
-            this.btn_refresh_p.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_refresh_p.Margin = new System.Windows.Forms.Padding(4);
             this.btn_refresh_p.Name = "btn_refresh_p";
             this.btn_refresh_p.Size = new System.Drawing.Size(44, 32);
             this.btn_refresh_p.TabIndex = 105;
@@ -140,8 +140,8 @@ namespace Final_Form_Doctor_s_Office.Forms
             // panel_posologie
             // 
             this.panel_posologie.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(82)))), ((int)(((byte)(163)))));
-            this.panel_posologie.Location = new System.Drawing.Point(365, 123);
-            this.panel_posologie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_posologie.Location = new System.Drawing.Point(259, 124);
+            this.panel_posologie.Margin = new System.Windows.Forms.Padding(4);
             this.panel_posologie.Name = "panel_posologie";
             this.panel_posologie.Size = new System.Drawing.Size(431, 2);
             this.panel_posologie.TabIndex = 98;
@@ -149,8 +149,8 @@ namespace Final_Form_Doctor_s_Office.Forms
             // tb_posologie
             // 
             this.tb_posologie.Font = new System.Drawing.Font("Century Gothic", 11.25F, System.Drawing.FontStyle.Bold);
-            this.tb_posologie.Location = new System.Drawing.Point(365, 91);
-            this.tb_posologie.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tb_posologie.Location = new System.Drawing.Point(259, 92);
+            this.tb_posologie.Margin = new System.Windows.Forms.Padding(4);
             this.tb_posologie.Multiline = true;
             this.tb_posologie.Name = "tb_posologie";
             this.tb_posologie.Size = new System.Drawing.Size(431, 35);
@@ -172,7 +172,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.Btn_retour.Image = ((System.Drawing.Image)(resources.GetObject("Btn_retour.Image")));
             this.Btn_retour.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.Btn_retour.Location = new System.Drawing.Point(8, 481);
-            this.Btn_retour.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Btn_retour.Margin = new System.Windows.Forms.Padding(4);
             this.Btn_retour.Name = "Btn_retour";
             this.Btn_retour.Padding = new System.Windows.Forms.Padding(15, 0, 0, 0);
             this.Btn_retour.Size = new System.Drawing.Size(144, 44);
@@ -186,13 +186,14 @@ namespace Final_Form_Doctor_s_Office.Forms
             // 
             this.cb_typeMedicaments.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.cb_typeMedicaments.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cb_typeMedicaments.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cb_typeMedicaments.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.FileSystem;
+            this.cb_typeMedicaments.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cb_typeMedicaments.DropDownWidth = 213;
             this.cb_typeMedicaments.FormattingEnabled = true;
-            this.cb_typeMedicaments.Location = new System.Drawing.Point(365, 14);
-            this.cb_typeMedicaments.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cb_typeMedicaments.Location = new System.Drawing.Point(259, 15);
+            this.cb_typeMedicaments.Margin = new System.Windows.Forms.Padding(4);
             this.cb_typeMedicaments.Name = "cb_typeMedicaments";
-            this.cb_typeMedicaments.Size = new System.Drawing.Size(431, 31);
+            this.cb_typeMedicaments.Size = new System.Drawing.Size(560, 31);
             this.cb_typeMedicaments.TabIndex = 69;
             this.cb_typeMedicaments.SelectedIndexChanged += new System.EventHandler(this.cb_typeMedicaments_SelectedIndexChanged_1);
             // 
@@ -200,13 +201,12 @@ namespace Final_Form_Doctor_s_Office.Forms
             // 
             this.cb_medicament.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.cb_medicament.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cb_medicament.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cb_medicament.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_medicament.FormattingEnabled = true;
-            this.cb_medicament.Location = new System.Drawing.Point(365, 52);
-            this.cb_medicament.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cb_medicament.Location = new System.Drawing.Point(259, 53);
+            this.cb_medicament.Margin = new System.Windows.Forms.Padding(4);
             this.cb_medicament.Name = "cb_medicament";
-            this.cb_medicament.Size = new System.Drawing.Size(431, 31);
+            this.cb_medicament.Size = new System.Drawing.Size(725, 31);
             this.cb_medicament.TabIndex = 69;
             // 
             // Dgv_intitule
@@ -222,14 +222,14 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.Dgv_intitule.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.Dgv_intitule.ClipboardCopyMode = System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithoutHeaderText;
             this.Dgv_intitule.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(54)))), ((int)(((byte)(108)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(96)))), ((int)(((byte)(139)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_intitule.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(54)))), ((int)(((byte)(108)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(82)))), ((int)(((byte)(96)))), ((int)(((byte)(139)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_intitule.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
             this.Dgv_intitule.ColumnHeadersHeight = 45;
             this.Dgv_intitule.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.ID_odo,
@@ -237,29 +237,29 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.Posologie,
             this.Supprimer});
             this.Dgv_intitule.Cursor = System.Windows.Forms.Cursors.Hand;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(32)))));
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(198)))), ((int)(((byte)(213)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.Dgv_intitule.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(32)))));
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(198)))), ((int)(((byte)(213)))));
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.Dgv_intitule.DefaultCellStyle = dataGridViewCellStyle5;
             this.Dgv_intitule.EnableHeadersVisualStyles = false;
             this.Dgv_intitule.GridColor = System.Drawing.SystemColors.ActiveCaption;
             this.Dgv_intitule.Location = new System.Drawing.Point(12, 185);
-            this.Dgv_intitule.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Dgv_intitule.Margin = new System.Windows.Forms.Padding(4);
             this.Dgv_intitule.Name = "Dgv_intitule";
             this.Dgv_intitule.ReadOnly = true;
             this.Dgv_intitule.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.Dgv_intitule.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.Dgv_intitule.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
             this.Dgv_intitule.RowHeadersVisible = false;
             this.Dgv_intitule.RowHeadersWidth = 55;
             this.Dgv_intitule.RowTemplate.Height = 30;
@@ -308,7 +308,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             // 
             this.label1.AutoSize = true;
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(32)))));
-            this.label1.Location = new System.Drawing.Point(141, 16);
+            this.label1.Location = new System.Drawing.Point(35, 17);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(197, 23);
@@ -319,7 +319,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             // 
             this.label_Posologie.AutoSize = true;
             this.label_Posologie.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(32)))));
-            this.label_Posologie.Location = new System.Drawing.Point(179, 94);
+            this.label_Posologie.Location = new System.Drawing.Point(73, 95);
             this.label_Posologie.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Posologie.Name = "label_Posologie";
             this.label_Posologie.Size = new System.Drawing.Size(105, 23);
@@ -330,7 +330,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             // 
             this.label_Medicament.AutoSize = true;
             this.label_Medicament.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(24)))), ((int)(((byte)(32)))));
-            this.label_Medicament.Location = new System.Drawing.Point(161, 55);
+            this.label_Medicament.Location = new System.Drawing.Point(55, 56);
             this.label_Medicament.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label_Medicament.Name = "label_Medicament";
             this.label_Medicament.Size = new System.Drawing.Size(135, 23);
@@ -353,7 +353,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.btn_imprimer_ordonnance.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold);
             this.btn_imprimer_ordonnance.ForeColor = System.Drawing.Color.White;
             this.btn_imprimer_ordonnance.Location = new System.Drawing.Point(365, 481);
-            this.btn_imprimer_ordonnance.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_imprimer_ordonnance.Margin = new System.Windows.Forms.Padding(4);
             this.btn_imprimer_ordonnance.Name = "btn_imprimer_ordonnance";
             this.btn_imprimer_ordonnance.Size = new System.Drawing.Size(431, 44);
             this.btn_imprimer_ordonnance.TabIndex = 3;
@@ -376,8 +376,8 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.btn_ajouter_medicament.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(71)))), ((int)(((byte)(125)))));
             this.btn_ajouter_medicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ajouter_medicament.ForeColor = System.Drawing.Color.White;
-            this.btn_ajouter_medicament.Location = new System.Drawing.Point(447, 137);
-            this.btn_ajouter_medicament.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_ajouter_medicament.Location = new System.Drawing.Point(341, 138);
+            this.btn_ajouter_medicament.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ajouter_medicament.Name = "btn_ajouter_medicament";
             this.btn_ajouter_medicament.Size = new System.Drawing.Size(272, 39);
             this.btn_ajouter_medicament.TabIndex = 2;
@@ -393,7 +393,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.panel_title_bar_detailForm.Controls.Add(this.label2);
             this.panel_title_bar_detailForm.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel_title_bar_detailForm.Location = new System.Drawing.Point(0, 0);
-            this.panel_title_bar_detailForm.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel_title_bar_detailForm.Margin = new System.Windows.Forms.Padding(4);
             this.panel_title_bar_detailForm.Name = "panel_title_bar_detailForm";
             this.panel_title_bar_detailForm.Size = new System.Drawing.Size(1061, 38);
             this.panel_title_bar_detailForm.TabIndex = 57;
@@ -413,7 +413,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.btn_Exit_Form.IconFont = FontAwesome.Sharp.IconFont.Auto;
             this.btn_Exit_Form.IconSize = 1;
             this.btn_Exit_Form.Location = new System.Drawing.Point(997, 4);
-            this.btn_Exit_Form.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btn_Exit_Form.Margin = new System.Windows.Forms.Padding(4);
             this.btn_Exit_Form.Name = "btn_Exit_Form";
             this.btn_Exit_Form.Size = new System.Drawing.Size(60, 30);
             this.btn_Exit_Form.TabIndex = 5;
@@ -455,7 +455,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.Controls.Add(this.panel_title_bar_detailForm);
             this.Controls.Add(this.gp_ordonnance);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form_Ajouter_Ordonnance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form_Ajouter_Ordonnance";
