@@ -55,6 +55,8 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
                 ajout_Visite(Classes.GG.Patientid, Convert.ToDouble(tb_prix.Text), dtp_visite.Value);
                 MessageBox.Show("Félicitation visite est ajoutée avec succès", "Opération effectuée avec succés", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 Classes.GG.charge();
+                tb_prix.Text = null;
+                dtp_visite.Value = DateTime.Now;
                 OleDbDataAdapter d_visitee = new OleDbDataAdapter("select top 1 ID_visite from Visite ORDER BY ID_visite desc", Classes.GG.cnx);
                 OleDbCommandBuilder cmd_visite = new OleDbCommandBuilder(d_visitee);
                 d_visitee.Fill(Classes.GG.ds, "id_visite");

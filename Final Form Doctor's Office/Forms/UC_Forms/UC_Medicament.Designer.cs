@@ -29,13 +29,11 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Medicament));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Medicament));
             this.panel_full_form = new System.Windows.Forms.Panel();
-            this.btn_info_p = new Gestion_Commerciale.Classes.CButton();
-            this.btn_refresh_p = new Gestion_Commerciale.Classes.CButton();
             this.gp_dgv_medicaments = new System.Windows.Forms.GroupBox();
             this.Dgv_medicament = new System.Windows.Forms.DataGridView();
             this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,9 +43,11 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.cb_typeMedicaments = new System.Windows.Forms.ComboBox();
             this.panel_cin = new System.Windows.Forms.Panel();
             this.tb_intitule = new System.Windows.Forms.TextBox();
-            this.btn_ajouter_medicament = new Gestion_Commerciale.Classes.CButton();
             this.label_Description = new System.Windows.Forms.Label();
             this.label_Intitule = new System.Windows.Forms.Label();
+            this.btn_info_p = new Gestion_Commerciale.Classes.CButton();
+            this.btn_refresh_p = new Gestion_Commerciale.Classes.CButton();
+            this.btn_ajouter_medicament = new Gestion_Commerciale.Classes.CButton();
             this.panel_full_form.SuspendLayout();
             this.gp_dgv_medicaments.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_medicament)).BeginInit();
@@ -66,51 +66,6 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.panel_full_form.Name = "panel_full_form";
             this.panel_full_form.Size = new System.Drawing.Size(1000, 588);
             this.panel_full_form.TabIndex = 0;
-            // 
-            // btn_info_p
-            // 
-            this.btn_info_p.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_info_p.BackColor = System.Drawing.Color.Transparent;
-            this.btn_info_p.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btn_info_p.BorderColor = System.Drawing.Color.DarkMagenta;
-            this.btn_info_p.BorderRadius = 20;
-            this.btn_info_p.BorderSize = 0;
-            this.btn_info_p.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_info_p.FlatAppearance.BorderSize = 0;
-            this.btn_info_p.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(154)))), ((int)(((byte)(140)))));
-            this.btn_info_p.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_info_p.ForeColor = System.Drawing.Color.White;
-            this.btn_info_p.Image = ((System.Drawing.Image)(resources.GetObject("btn_info_p.Image")));
-            this.btn_info_p.Location = new System.Drawing.Point(940, 7);
-            this.btn_info_p.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_info_p.Name = "btn_info_p";
-            this.btn_info_p.Size = new System.Drawing.Size(44, 32);
-            this.btn_info_p.TabIndex = 114;
-            this.btn_info_p.TextColor = System.Drawing.Color.White;
-            this.btn_info_p.UseVisualStyleBackColor = false;
-            // 
-            // btn_refresh_p
-            // 
-            this.btn_refresh_p.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.btn_refresh_p.BackColor = System.Drawing.Color.Transparent;
-            this.btn_refresh_p.BackgroundColor = System.Drawing.Color.Transparent;
-            this.btn_refresh_p.BorderColor = System.Drawing.Color.DarkMagenta;
-            this.btn_refresh_p.BorderRadius = 20;
-            this.btn_refresh_p.BorderSize = 0;
-            this.btn_refresh_p.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_refresh_p.FlatAppearance.BorderSize = 0;
-            this.btn_refresh_p.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(154)))), ((int)(((byte)(140)))));
-            this.btn_refresh_p.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_refresh_p.ForeColor = System.Drawing.Color.White;
-            this.btn_refresh_p.Image = ((System.Drawing.Image)(resources.GetObject("btn_refresh_p.Image")));
-            this.btn_refresh_p.Location = new System.Drawing.Point(888, 7);
-            this.btn_refresh_p.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_refresh_p.Name = "btn_refresh_p";
-            this.btn_refresh_p.Size = new System.Drawing.Size(44, 32);
-            this.btn_refresh_p.TabIndex = 113;
-            this.btn_refresh_p.TextColor = System.Drawing.Color.White;
-            this.btn_refresh_p.UseVisualStyleBackColor = false;
-            this.btn_refresh_p.Click += new System.EventHandler(this.btn_refresh_p_Click);
             // 
             // gp_dgv_medicaments
             // 
@@ -144,7 +99,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.Dgv_medicament.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(54)))), ((int)(((byte)(108)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(73)))), ((int)(((byte)(85)))), ((int)(((byte)(130)))));
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
@@ -158,8 +113,8 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.Dgv_medicament.Cursor = System.Windows.Forms.Cursors.Hand;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(55)))), ((int)(((byte)(82)))), ((int)(((byte)(163)))));
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(194)))), ((int)(((byte)(198)))), ((int)(((byte)(213)))));
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.Black;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
@@ -173,7 +128,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.Dgv_medicament.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 8.25F);
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Control;
@@ -232,8 +187,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             // 
             // cb_typeMedicaments
             // 
-            this.cb_typeMedicaments.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cb_typeMedicaments.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cb_typeMedicaments.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_typeMedicaments.FormattingEnabled = true;
             this.cb_typeMedicaments.Location = new System.Drawing.Point(323, 102);
             this.cb_typeMedicaments.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -260,29 +214,6 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.tb_intitule.Size = new System.Drawing.Size(508, 35);
             this.tb_intitule.TabIndex = 101;
             // 
-            // btn_ajouter_medicament
-            // 
-            this.btn_ajouter_medicament.BackColor = System.Drawing.Color.Green;
-            this.btn_ajouter_medicament.BackgroundColor = System.Drawing.Color.Green;
-            this.btn_ajouter_medicament.BorderColor = System.Drawing.Color.PaleVioletRed;
-            this.btn_ajouter_medicament.BorderRadius = 20;
-            this.btn_ajouter_medicament.BorderSize = 0;
-            this.btn_ajouter_medicament.FlatAppearance.BorderSize = 0;
-            this.btn_ajouter_medicament.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGreen;
-            this.btn_ajouter_medicament.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(170)))), ((int)(((byte)(85)))));
-            this.btn_ajouter_medicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_ajouter_medicament.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_ajouter_medicament.ForeColor = System.Drawing.Color.White;
-            this.btn_ajouter_medicament.Location = new System.Drawing.Point(557, 149);
-            this.btn_ajouter_medicament.Margin = new System.Windows.Forms.Padding(4);
-            this.btn_ajouter_medicament.Name = "btn_ajouter_medicament";
-            this.btn_ajouter_medicament.Size = new System.Drawing.Size(273, 49);
-            this.btn_ajouter_medicament.TabIndex = 4;
-            this.btn_ajouter_medicament.Text = "Ajouter";
-            this.btn_ajouter_medicament.TextColor = System.Drawing.Color.White;
-            this.btn_ajouter_medicament.UseVisualStyleBackColor = false;
-            this.btn_ajouter_medicament.Click += new System.EventHandler(this.btn_ajouter_medicament_Click);
-            // 
             // label_Description
             // 
             this.label_Description.AutoSize = true;
@@ -304,6 +235,75 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.label_Intitule.Size = new System.Drawing.Size(75, 23);
             this.label_Intitule.TabIndex = 3;
             this.label_Intitule.Text = "Intitule";
+            // 
+            // btn_info_p
+            // 
+            this.btn_info_p.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_info_p.BackColor = System.Drawing.Color.Transparent;
+            this.btn_info_p.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_info_p.BorderColor = System.Drawing.Color.DarkMagenta;
+            this.btn_info_p.BorderRadius = 20;
+            this.btn_info_p.BorderSize = 0;
+            this.btn_info_p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_info_p.FlatAppearance.BorderSize = 0;
+            this.btn_info_p.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(154)))), ((int)(((byte)(140)))));
+            this.btn_info_p.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_info_p.ForeColor = System.Drawing.Color.White;
+            this.btn_info_p.Image = ((System.Drawing.Image)(resources.GetObject("btn_info_p.Image")));
+            this.btn_info_p.Location = new System.Drawing.Point(940, 7);
+            this.btn_info_p.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_info_p.Name = "btn_info_p";
+            this.btn_info_p.Size = new System.Drawing.Size(44, 32);
+            this.btn_info_p.TabIndex = 114;
+            this.btn_info_p.TextColor = System.Drawing.Color.White;
+            this.btn_info_p.UseVisualStyleBackColor = false;
+            // 
+            // btn_refresh_p
+            // 
+            this.btn_refresh_p.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_refresh_p.BackColor = System.Drawing.Color.Transparent;
+            this.btn_refresh_p.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_refresh_p.BorderColor = System.Drawing.Color.DarkMagenta;
+            this.btn_refresh_p.BorderRadius = 20;
+            this.btn_refresh_p.BorderSize = 0;
+            this.btn_refresh_p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_refresh_p.FlatAppearance.BorderSize = 0;
+            this.btn_refresh_p.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(154)))), ((int)(((byte)(140)))));
+            this.btn_refresh_p.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_refresh_p.ForeColor = System.Drawing.Color.White;
+            this.btn_refresh_p.Image = ((System.Drawing.Image)(resources.GetObject("btn_refresh_p.Image")));
+            this.btn_refresh_p.Location = new System.Drawing.Point(888, 7);
+            this.btn_refresh_p.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_refresh_p.Name = "btn_refresh_p";
+            this.btn_refresh_p.Size = new System.Drawing.Size(44, 32);
+            this.btn_refresh_p.TabIndex = 113;
+            this.btn_refresh_p.TextColor = System.Drawing.Color.White;
+            this.btn_refresh_p.UseVisualStyleBackColor = false;
+            this.btn_refresh_p.Click += new System.EventHandler(this.btn_refresh_p_Click);
+            // 
+            // btn_ajouter_medicament
+            // 
+            this.btn_ajouter_medicament.BackColor = System.Drawing.Color.Green;
+            this.btn_ajouter_medicament.BackgroundColor = System.Drawing.Color.Green;
+            this.btn_ajouter_medicament.BorderColor = System.Drawing.Color.PaleVioletRed;
+            this.btn_ajouter_medicament.BorderRadius = 20;
+            this.btn_ajouter_medicament.BorderSize = 0;
+            this.btn_ajouter_medicament.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_ajouter_medicament.FlatAppearance.BorderSize = 0;
+            this.btn_ajouter_medicament.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGreen;
+            this.btn_ajouter_medicament.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(170)))), ((int)(((byte)(85)))));
+            this.btn_ajouter_medicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_ajouter_medicament.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_ajouter_medicament.ForeColor = System.Drawing.Color.White;
+            this.btn_ajouter_medicament.Location = new System.Drawing.Point(557, 149);
+            this.btn_ajouter_medicament.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_ajouter_medicament.Name = "btn_ajouter_medicament";
+            this.btn_ajouter_medicament.Size = new System.Drawing.Size(273, 49);
+            this.btn_ajouter_medicament.TabIndex = 4;
+            this.btn_ajouter_medicament.Text = "Ajouter";
+            this.btn_ajouter_medicament.TextColor = System.Drawing.Color.White;
+            this.btn_ajouter_medicament.UseVisualStyleBackColor = false;
+            this.btn_ajouter_medicament.Click += new System.EventHandler(this.btn_ajouter_medicament_Click);
             // 
             // UC_Medicament
             // 

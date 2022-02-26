@@ -20,15 +20,13 @@ namespace Final_Form_Doctor_s_Office
         private Size formSize; //Keep form size when it is minimized and restored.
                                //Since the form is resized because it takes into account the size of the title
                                //bar and borders.
-
         //constructor
         public Form_Menu()
         {
             InitializeComponent();
             collapseMenu();
             this.Padding = new Padding(borderSize);//border size
-            this.BackColor = Color.FromArgb(98, 102, 244); //border color
-            
+            this.BackColor = Color.FromArgb(25, 24, 32); //border color            
         }
         //methods to move the forme from the panel
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
@@ -74,7 +72,6 @@ namespace Final_Form_Doctor_s_Office
             else
                 this.WindowState = FormWindowState.Normal;
         }
-       
         private void btn_Menu_Click(object sender, EventArgs e)
         {
             collapseMenu();
@@ -292,11 +289,6 @@ namespace Final_Form_Doctor_s_Office
             {
                 Application.Exit();
             }
-        }
-
-        private void panel_title_bar_Paint(object sender, PaintEventArgs e)
-        {
-
         }
     }
 }

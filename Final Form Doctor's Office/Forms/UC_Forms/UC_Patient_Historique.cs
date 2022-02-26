@@ -54,5 +54,12 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             foreach (DataRow dr in Classes.GG.ds.Visite.Select("Cin_patient='" + Classes.GG.Patientid + "'")) // remplissage de la liste des visites
                 Dgv_Patient_visite.Rows.Add(dr[2]);
         }
+
+        private void btn_refresh_p_Click(object sender, EventArgs e)
+        {
+            Classes.GG.charge();
+            foreach (DataRow dr in Classes.GG.ds.Visite.Select("Cin_patient='" + Classes.GG.Patientid + "'")) // remplissage de la liste des visites
+                Dgv_Patient_visite.Rows.Add(dr[2]);
+        }
     }
 }

@@ -331,8 +331,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             // 
             // cb_ville
             // 
-            this.cb_ville.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
-            this.cb_ville.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cb_ville.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cb_ville.Enabled = false;
             this.cb_ville.FormattingEnabled = true;
             this.cb_ville.Location = new System.Drawing.Point(707, 182);

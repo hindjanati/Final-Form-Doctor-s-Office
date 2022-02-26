@@ -7,7 +7,6 @@ namespace Final_Form_Doctor_s_Office
         /// Variable nécessaire au concepteur.
         /// </summary>
         private System.ComponentModel.IContainer components = null;
-
         /// <summary>
         /// Nettoyage des ressources utilisées.
         /// </summary>
@@ -20,9 +19,7 @@ namespace Final_Form_Doctor_s_Office
             }
             base.Dispose(disposing);
         }
-
         #region Code généré par le Concepteur Windows Form
-
         /// <summary>
         /// Méthode requise pour la prise en charge du concepteur - ne modifiez pas
         /// le contenu de cette méthode avec l'éditeur de code.
@@ -270,7 +267,6 @@ namespace Final_Form_Doctor_s_Office
             this.panel_title_bar.Name = "panel_title_bar";
             this.panel_title_bar.Size = new System.Drawing.Size(1000, 54);
             this.panel_title_bar.TabIndex = 1;
-            this.panel_title_bar.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_title_bar_Paint);
             this.panel_title_bar.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panel_tItle_bar_MouseDown);
             // 
             // Label_text_header

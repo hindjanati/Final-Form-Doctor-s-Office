@@ -11,7 +11,7 @@ namespace Final_Form_Doctor_s_Office.Classes
     public static class GG
     {
         //connection
-        public static OleDbConnection cnx = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\our project\our project\Final Form Doctor's Office\Final Form Doctor's Office\Database_cabinet.accdb");
+        public static OleDbConnection cnx = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=Database_cabinet.accdb");
         public static Data.gestion_cabinet ds = new Data.gestion_cabinet();
 
         // table login 

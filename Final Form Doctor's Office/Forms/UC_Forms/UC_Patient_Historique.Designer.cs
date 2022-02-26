@@ -35,6 +35,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UC_Patient_Historique));
             this.label8 = new System.Windows.Forms.Label();
             this.Dgv_intitule = new System.Windows.Forms.DataGridView();
             this.Intitule = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,6 +43,7 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.date_visite = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label3 = new System.Windows.Forms.Label();
             this.label_Cin = new System.Windows.Forms.Label();
+            this.btn_refresh_p = new Gestion_Commerciale.Classes.CButton();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_intitule)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.Dgv_Patient_visite)).BeginInit();
             this.SuspendLayout();
@@ -209,11 +211,35 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
             this.label_Cin.TabIndex = 130;
             this.label_Cin.Text = "Ordonnance de la visite";
             // 
+            // btn_refresh_p
+            // 
+            this.btn_refresh_p.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_refresh_p.BackColor = System.Drawing.Color.Transparent;
+            this.btn_refresh_p.BackgroundColor = System.Drawing.Color.Transparent;
+            this.btn_refresh_p.BorderColor = System.Drawing.Color.DarkMagenta;
+            this.btn_refresh_p.BorderRadius = 20;
+            this.btn_refresh_p.BorderSize = 0;
+            this.btn_refresh_p.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_refresh_p.FlatAppearance.BorderSize = 0;
+            this.btn_refresh_p.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(154)))), ((int)(((byte)(140)))));
+            this.btn_refresh_p.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_refresh_p.ForeColor = System.Drawing.Color.White;
+            this.btn_refresh_p.Image = ((System.Drawing.Image)(resources.GetObject("btn_refresh_p.Image")));
+            this.btn_refresh_p.Location = new System.Drawing.Point(972, 4);
+            this.btn_refresh_p.Margin = new System.Windows.Forms.Padding(4);
+            this.btn_refresh_p.Name = "btn_refresh_p";
+            this.btn_refresh_p.Size = new System.Drawing.Size(44, 32);
+            this.btn_refresh_p.TabIndex = 132;
+            this.btn_refresh_p.TextColor = System.Drawing.Color.White;
+            this.btn_refresh_p.UseVisualStyleBackColor = false;
+            this.btn_refresh_p.Click += new System.EventHandler(this.btn_refresh_p_Click);
+            // 
             // UC_Patient_Historique
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(227)))), ((int)(((byte)(231)))), ((int)(((byte)(211)))));
+            this.Controls.Add(this.btn_refresh_p);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.Dgv_intitule);
             this.Controls.Add(this.Dgv_Patient_visite);
@@ -238,5 +264,6 @@ namespace Final_Form_Doctor_s_Office.Forms.UC_Forms
         private System.Windows.Forms.DataGridViewTextBoxColumn date_visite;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label_Cin;
+        private Gestion_Commerciale.Classes.CButton btn_refresh_p;
     }
 }

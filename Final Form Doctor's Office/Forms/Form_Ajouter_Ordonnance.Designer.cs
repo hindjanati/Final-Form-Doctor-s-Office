@@ -163,6 +163,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.Btn_retour.BorderColor = System.Drawing.Color.DarkMagenta;
             this.Btn_retour.BorderRadius = 20;
             this.Btn_retour.BorderSize = 0;
+            this.Btn_retour.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_retour.FlatAppearance.BorderSize = 0;
             this.Btn_retour.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkRed;
             this.Btn_retour.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
@@ -346,6 +347,7 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.btn_imprimer_ordonnance.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btn_imprimer_ordonnance.BorderRadius = 20;
             this.btn_imprimer_ordonnance.BorderSize = 0;
+            this.btn_imprimer_ordonnance.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_imprimer_ordonnance.FlatAppearance.BorderSize = 0;
             this.btn_imprimer_ordonnance.FlatAppearance.MouseDownBackColor = System.Drawing.Color.DarkGreen;
             this.btn_imprimer_ordonnance.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(85)))), ((int)(((byte)(170)))), ((int)(((byte)(85)))));
@@ -371,12 +373,13 @@ namespace Final_Form_Doctor_s_Office.Forms
             this.btn_ajouter_medicament.BorderColor = System.Drawing.Color.PaleVioletRed;
             this.btn_ajouter_medicament.BorderRadius = 20;
             this.btn_ajouter_medicament.BorderSize = 0;
+            this.btn_ajouter_medicament.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ajouter_medicament.FlatAppearance.BorderSize = 0;
             this.btn_ajouter_medicament.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(36)))), ((int)(((byte)(54)))), ((int)(((byte)(108)))));
             this.btn_ajouter_medicament.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(53)))), ((int)(((byte)(71)))), ((int)(((byte)(125)))));
             this.btn_ajouter_medicament.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_ajouter_medicament.ForeColor = System.Drawing.Color.White;
-            this.btn_ajouter_medicament.Location = new System.Drawing.Point(341, 138);
+            this.btn_ajouter_medicament.Location = new System.Drawing.Point(336, 135);
             this.btn_ajouter_medicament.Margin = new System.Windows.Forms.Padding(4);
             this.btn_ajouter_medicament.Name = "btn_ajouter_medicament";
             this.btn_ajouter_medicament.Size = new System.Drawing.Size(272, 39);
